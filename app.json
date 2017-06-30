@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3197ed",
+    "navigationBarTitleText": "番茄闹钟",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3197ed",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/homepage.png",
+      "selectedIconPath": "image/homepage_fill.png",
+      "text": "主页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "image/time.png",
+      "selectedIconPath": "image/time_fill.png",
+      "text": "记录"
+    }, {
+      "pagePath": "pages/setting/setting",
+      "iconPath": "image/setup.png",
+      "selectedIconPath": "image/setup_fill.png",
+      "text": "设置"
+    }]
+  }
+}
